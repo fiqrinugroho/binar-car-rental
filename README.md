@@ -1,0 +1,1 @@
+Landing page binar car rental, untuk memenuhi tugas chapter1 & 2 bootcamp binar academy, full stack web development
