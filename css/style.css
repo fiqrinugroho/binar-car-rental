@@ -261,6 +261,7 @@ section.hero {
     margin-left: 50px;
 }
 
+/* menghilangkan chechbox navbar */
 .check {
     position: absolute;
     right: 0.8rem;
@@ -588,4 +589,5 @@ section.hero {
         display: block;
         transform: rotate(-45deg);
     }
+    /* end style navbar */
   }
