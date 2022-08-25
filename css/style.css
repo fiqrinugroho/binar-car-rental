@@ -359,7 +359,7 @@ section.hero {
     }
     .item {
         height: 372px;
-        width: 100%;
+        width: auto;
         margin: 0;
         padding: 0;
         text-align: left;
@@ -390,9 +390,10 @@ section.hero {
     .jumbotron {
         margin: 0px;
         padding: 0px;
-        margin-left: 13px;
+        margin-left: 16px;
+        margin-right: 16px;
         margin-top: 60px;
-        width : 93%;
+        width : auto;
     }
     .text-jumbotron {
         margin: 0px;
@@ -417,11 +418,12 @@ section.hero {
         margin: 0px;
         padding: 0px;
         margin-top: 60px;
-        width : 100%;
-        
+        width : auto;
     }
     .text-faq{
         width: 100%;
+        margin: 0;
+        padding: 0;
         text-align: center;
     }
     .accordion{
