@@ -24,7 +24,7 @@ nav {
     z-index: 5;
 }
   
-.nav-link {
+.nav-item {
     margin-left: 32px;
     font-size: 14px;
 }
@@ -481,7 +481,7 @@ section.hero {
         position: absolute;
         padding-bottom: 30rem;
         padding-top: 6rem;
-        padding-right: 4.5rem;
+        padding-right: 2.7rem;
         padding-left: 5rem;
         margin-top: -6rem;
         top: 5rem;
@@ -502,16 +502,15 @@ section.hero {
         padding-bottom: 5px;
     }
     .nav-item {
-        padding-bottom: 20px;
         margin-top: -20px;
-        margin-left: -75px;
+        margin-left: -100px;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
     }
     .btn-reg {
         margin-top: -16px;
-        margin-left: -75px; 
+        margin-left: -85px; 
         color: white;
     }
     .menu-items li{
