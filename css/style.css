@@ -278,7 +278,11 @@ section.hero {
         margin: 0;
         padding: 0;
     }
+
     /* style sidenavbar */
+    .navbar-toggler {
+        border: none;
+    }
     .offcanvas-end {
         width: 180px !important;
     }
@@ -288,7 +292,6 @@ section.hero {
         font-size: 14px;
         font-weight: 700;
         line-height: 20px;
-        text-align: left;
     }
     .navbar-nav {
         margin: 0;
@@ -302,8 +305,9 @@ section.hero {
     .nav-item {
         margin: 0;
         padding: 0;
-        padding-bottom: 6px;
+        margin-bottom: 6px;
     }
+
     /* style hero mobile*/
     .hero {
         margin: 0;
