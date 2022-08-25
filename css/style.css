@@ -481,8 +481,8 @@ section.hero {
         position: absolute;
         padding-bottom: 30rem;
         padding-top: 6rem;
-        padding-right: 2.7rem;
-        padding-left: 5rem;
+        padding-right: 4.8rem;
+        padding-left: 0;
         margin-top: -6rem;
         top: 5rem;
         right: 0;
@@ -501,18 +501,15 @@ section.hero {
         padding-top: 10px;
         padding-bottom: 5px;
     }
-    .nav-item {
+    .nav-text {
+        margin-bottom: 6px;
         margin-top: -20px;
-        margin-left: -100px;
+        margin-left: -30px;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
     }
-    .btn-reg {
-        margin-top: -16px;
-        margin-left: -85px; 
-        color: white;
-    }
+
     .menu-items li{
         color: black;
         padding: 0.5rem;
