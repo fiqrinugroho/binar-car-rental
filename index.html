@@ -21,36 +21,42 @@
   <body>
     <!-- Homepage - Main Section -->
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg position-fixed w-100">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="assets/images/logo.png" alt="logo" height="34">
         </a>
-        <input type="checkbox"  name="" id="" class="check">
-        <ul class="navbar-nav ms-auto menu-items">
-          <li class="nav-item">
-            <a class="nav-link active nav-text" href="#our_services">Our Services</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active nav-text" href="#why_us">Why Us</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active nav-text" href="#testimonial">Testimonial</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active nav-text" href="#faq">FAQ</a>
-          </li>
-          <li class="nav-item btn-reg">
-            <a href="#" class="btn btn-success text-white nav-text">Register</a>
-          </li>
-        </ul>
-        <div class="ham-menu">
-          <span class="line line1"></span>
-          <span class="line line2"></span>
-          <span class="line line3"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">BCS</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#our_services">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#why_us">Why Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-success ">Register</a>
+              </li>
+            </ul>
+          </div>
+          </div>
         </div>
       </div>
-    </nav> 
+    </nav>
 
     <!-- Heroes -->
     <section class="hero">
