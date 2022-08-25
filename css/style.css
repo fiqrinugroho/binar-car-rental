@@ -255,20 +255,13 @@ section.hero {
     margin-left: 50px;
 }
 .social {
-    margin-left: -100px;
+    margin-left: -20px;
+}
+.icon-social {
+    margin-right: 16px;
 }
 .copyright {
-    margin-left: 50px;
-}
-
-/* menghilangkan chechbox navbar */
-.check {
-    position: absolute;
-    right: 0.8rem;
-    height: 3rem;
-    width: 3rem;
-    opacity: 0;
-    z-index: 3;
+    margin-left: -10px;
 }
 
 /*style untuk Mobile*/
@@ -480,6 +473,9 @@ section.hero {
         margin-top: 16px;
         margin-left: 37px;
         padding: 0px;
+    }
+    .icon-social {
+        margin-right: 16px;
     }
     .connect {
         margin: 0px;
