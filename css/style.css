@@ -24,7 +24,7 @@ nav {
     z-index: 5;
 }
   
-.nav-item {
+.nav-link {
     margin-left: 32px;
     font-size: 14px;
 }
@@ -469,10 +469,10 @@ section.hero {
     }
 }
 
-@media (max-width: 910px) {
+/* style tablet */
+@media (max-width: 912px) {
     html, body {
         overflow-x: hidden;
-    
     }
     /* membuat navbar di pinggir */
     .menu-items {
@@ -481,7 +481,7 @@ section.hero {
         position: absolute;
         padding-bottom: 30rem;
         padding-top: 6rem;
-        padding-right: 4.2rem;
+        padding-right: 4.5rem;
         padding-left: 5rem;
         margin-top: -6rem;
         top: 5rem;
@@ -502,14 +502,12 @@ section.hero {
         padding-bottom: 5px;
     }
     .nav-item {
-        padding:0;
-        padding-bottom: 16px;
+        padding-bottom: 20px;
         margin-top: -20px;
         margin-left: -75px;
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
-
     }
     .btn-reg {
         margin-top: -16px;
@@ -555,7 +553,6 @@ section.hero {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        /* background-color: #F1F3FF; */
         border-radius: 0.25em;
     }
     
