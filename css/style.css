@@ -300,10 +300,16 @@ section.hero {
         padding: 0;
         margin-bottom: 6px;
     }
+    .navbar-brand {
+        margin: 0;
+        margin-left: 4px;
+        padding: 0;
+    }
 
     /* style hero mobile*/
     .hero {
         margin: 0;
+        margin-left: 4px;
         padding: 0;
         width: 100%;
     }
@@ -311,7 +317,7 @@ section.hero {
         padding-top: 100px;
     }
     .car {
-        width: 90%;
+        width: 89%;
         padding-top: 24px;
         padding-bottom: 0px;
     }
@@ -340,12 +346,15 @@ section.hero {
     .whyus {
         margin-top: 60px;
         text-align: center;
+        width: auto;
     }
     .card {
         margin: 0px;
-        margin-bottom: 16px;
         padding:0px;
         width: auto;
+        margin-bottom: 16px;
+        margin-left: 4px;
+        margin-right: 4px;
     }
     .card-body{
         padding: 24px;
@@ -354,12 +363,14 @@ section.hero {
 
     /* style testimonial mobile */
     .testimonial {
-        margin-top: 60px;
+        margin-top: 50px;
     }
     .item {
         height: 372px;
         width: auto;
         margin: 0;
+        margin-left: 4px;
+        margin-right: 4px;
         padding: 0;
         text-align: left;
     }
@@ -389,8 +400,8 @@ section.hero {
     .jumbotron {
         margin: 0px;
         padding: 0px;
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 16px;
+        margin-right: 16px;
         margin-top: 60px;
         width : auto;
     }
@@ -429,6 +440,7 @@ section.hero {
     }
     .accordion{
         margin: 0px;
+        margin-right: 4px;
         padding: 0px;
         width : 195%;
     }
@@ -445,7 +457,7 @@ section.hero {
     .foot {
         margin: 0px;
         padding: 0px;
-        margin-top: 60px;
+        margin-top: 30px;
         padding-bottom: 60px;
         width : 100%;
     }
@@ -456,7 +468,7 @@ section.hero {
     }
     .addres {
         margin: 0px;
-        margin-left: 36px;
+        margin-left: 32px;
         padding: 0px;
         
     }
@@ -465,7 +477,7 @@ section.hero {
     }
     .nav-foot {
         margin: 0px;
-        margin-left: 37px;
+        margin-left: 33px;
         padding: 0px;
     }
     .text-nav-foot {
@@ -474,7 +486,7 @@ section.hero {
     .social {
         margin: 0px;
         margin-top: 16px;
-        margin-left: 37px;
+        margin-left: 33px;
         padding: 0px;
     }
     .icon-social {
@@ -488,7 +500,7 @@ section.hero {
     .copyright {
         margin: 0px;
         margin-top: 16px;
-        margin-left: 37px;
+        margin-left: 33px;
         padding: 0px;
     }
     .copy-text{
